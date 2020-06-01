@@ -18,6 +18,19 @@ client.on("message", async message => {
   if (comando === "nome") {
     await message.channel.send(`Fala meu consagradoo, eu sou o ${client.user.username}`)
   }
+  if (comando === "olaadalbs") {
+    await message.channel.send(`Falaaaaaaaaaaa meu consagrado, eu sou o Adalbs, bot do canal Felipe Passos, comandos disponiveis, !youtube, !instagram, !github`)
+  }
+  if (comando === "youtube") {
+    await message.channel.send(`Canal no youtube do Felipe é https://www.youtube.com/c/FelipePassosdev`)
+  }
+  if (comando === "instagram") {
+    await message.channel.send(`Instagram do Felipe é @felipepassosdev`)
+  }
+  if (comando === "github") {
+    await message.channel.send(`O github do Felipe é https://github.com/felipepassosdev`)
+    console.log(client.user.username)
+  }
 });
 
 client.login(config.token);

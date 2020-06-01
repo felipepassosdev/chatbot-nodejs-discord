@@ -1,7 +1,6 @@
 {
   "name": "chatbot",
   "version": "1.0.0",
-  "description": "",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,5 +14,14 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipepassosdev/chatbot-nodejs-discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/felipepassosdev/chatbot-nodejs-discord/issues"
+  },
+  "homepage": "https://github.com/felipepassosdev/chatbot-nodejs-discord#readme",
+  "description": ""
 }
