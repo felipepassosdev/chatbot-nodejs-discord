@@ -18,7 +18,7 @@ client.on("message", async message => {
   if (comando === "nome") {
     await message.channel.send(`Fala meu consagradoo, eu sou o ${client.user.username}`)
   }
-  if (comando === "olaadalbs") {
+  if (comando === "ola adalbs") {
     await message.channel.send(`Falaaaaaaaaaaa meu consagrado, eu sou o Adalbs, bot do canal Felipe Passos, comandos disponiveis, !youtube, !instagram, !github`)
   }
   if (comando === "youtube") {
